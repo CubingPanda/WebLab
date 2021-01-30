@@ -1,0 +1,27 @@
+------------------For Windows------------------
+
+In XAMPP
+you will find a folder called htdocs
+make a folder called weblab
+and paste all php files there [even any supporting txt files (if any)]
+and then Open XAMP Control Panel start Apache
+and open browser on address bar type:
+
+localhost/weblab/prg6.php
+
+Note: for PROGRAM 10 start MySQL also.
+Then click on admin... browser will open
+click on database, type "weblab" in database name and press "create"
+on the left find weblab, click "new" under it
+import the student.sql file there and press "go"
+
+
+
+------------------For Ubuntu------------------
+
+For programs 6-9:
+Change directory to desktop using "cd Desktop/"
+Create your program and supporting files using "vi FILENAME.php" or "vim FILENAME.php" or "gedit FILENAME.php"
+Switch on the server using "php -S localhost:3000/FILENAME.php"
+Press "ctrl" on keyboard and click the link that comes up on screen using the mouse
+Press "ctrl c" to get back the prompt on terminal

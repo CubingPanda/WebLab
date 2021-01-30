@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<students>
+    <student>
+        <sname>ABCD</sname>
+        <usn>1RG15CS001</usn>
+        <college>PESIT-BSC</college>
+        <branch>CSE</branch>
+        <yoj>2015</yoj>
+        <email>abcd@xyz.com</email>
+    </student>
+    <student>
+        <sname>QWERT</sname>
+        <usn>1PE15CS002</usn>
+        <college>PESIT-BSC</college>
+        <branch>CSE</branch>
+        <yoj>2015</yoj>
+        <email>qwerty@xyz.com</email>
+    </student>
+    <student>
+        <sname>PQRS</sname>
+        <usn>1PE15CS003</usn>
+        <college>PESIT-BSC</college>
+        <branch>CSE</branch>
+        <yoj>2015</yoj>
+        <email>pqrs@xyz.com</email>
+    </student>
+</students>

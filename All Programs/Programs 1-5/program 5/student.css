@@ -1,0 +1,38 @@
+   students {
+       background-color: pink;
+       font-family: 'cambria';
+       color: red;
+       font-size: 20px;
+   }
+   student {
+       display: block;
+       margin-bottom: 30px;
+       margin-left: 20px;
+   }
+   sname {
+       font-size: 22px;
+       color: blue;
+   }
+   usn:before {
+       content: "USN: ";
+       font-weight: bold;
+   }
+   college:before {
+       content: "Affiliated College: ";
+       font-weight: bold;
+   }
+   branch:before {
+       content: "Branch: ";
+       font-weight: bold;
+   }
+   yoj:before {
+       content: "Year of Joining: ";
+       font-weight: bold;
+   }
+   email:before {
+       content: "EMAILID: ";
+       font-weight: bold;
+   }
+   usn, college, branch, yoj, email {
+        display: block;
+    }
