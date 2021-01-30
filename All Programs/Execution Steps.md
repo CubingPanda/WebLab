@@ -20,4 +20,3 @@ php -S localhost:3000/<PROGRAM NAME.EXTENTION>
 
 Press "ctrl" on keyboard and click the link that comes up on screen using the mouse
 Press "ctrl c" to get back the prompt on terminal
-----------------------------------------------
