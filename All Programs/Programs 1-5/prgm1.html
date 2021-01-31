@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator using JavaScript</title>
+    </head>
+    <body>
+        <h1 style="text-align: center; color: red;">Simple Calculator Using JavaScript</h1>
+        <center>
+            <table>
+                <tr>
+                    <th>Enter 1st Number: </th>
+                    <td><input type="number" name="num1" id="num1" /></td>
+                </tr>
+                <tr>
+                    <th>Enter 2nd Number: </th>
+                    <td><input type="number" name="num2" id="num2" /></td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="button" value="+" onclick="performop(this.value);"/>
+                        <input type="button" value="-" onclick="performop(this.value);"/>
+                        <input type="button" value="*" onclick="performop(this.value);"/>
+                        <input type="button" value="/" onclick="performop(this.value);"/>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Result: </th>
+                    <td><input type="number" name="res" id="res" readonly/></td>
+                </tr>
+                <tr id="err" style="visibility: hidden;">
+                    <th>ERROR: </th>
+                    <td>ZERO IS NOT DIVISIBLE !!</td>
+                </tr>
+            </table>
+        </center>
+
+        <script>
+        function performop(op) {
+            var n1 = parseInt(document.getElementById("num1").value);
+            var n2 = parseInt(document.getElementById("num2").value);
+            document.getElementById("err").style.visibility = "hidden"
+            var result = 0;
+            if(op == "+") {
+                result = n1+n2;
+            }
+            else if (op == "-") {
+                result = n1-n2;
+            }
+            else if (op == "*") {
+                result = n1*n2;
+            }
+            else {
+                if(n2!=0 && n1!=0){
+                    result = n1/n2;
+                } else {
+                    document.getElementById("err").style.visibility = "visible"
+                }
+            }
+            document.getElementById("res").value = result;
+        }
+        </script>
+    </body>
+</html>
